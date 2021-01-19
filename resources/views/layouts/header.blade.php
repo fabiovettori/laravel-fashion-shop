@@ -2,7 +2,9 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-lg-3">
-                <img src=" {{ asset('images/logo.svg') }} " alt="ralph lauren logo">
+                <a href=" {{ route('homepage') }} ">
+                    <img src=" {{ asset('images/logo.svg') }} " alt="ralph lauren logo">
+                </a>
             </div>
 
             <ul class="col-lg-7 list-unstyled d-flex justify-content-between align-items-center">
