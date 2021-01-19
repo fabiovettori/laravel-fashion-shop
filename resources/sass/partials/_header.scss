@@ -1,0 +1,52 @@
+header {
+
+    #top-banner {
+        background-color: $header_bg_color;
+        padding: 3px 0;
+
+        a {
+            padding-left: 5px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        span {
+            padding-bottom: 2px;
+        }
+
+        a, span {
+            font-size: 10px;
+            color: #fff;
+        }
+    }
+
+    #nav-bar {
+        padding: 15px 0;
+
+        .menu {
+            li {
+                padding-right: 30px;
+
+                a {
+                    font-size: 13px;
+                    text-decoration: none;
+                    color: $header_font_color;
+
+                    &:hover {
+                        color: $header_font_color;
+                    }
+                }
+            }
+        }
+
+        .icons {
+            a {
+                span {
+                    color: $header_font_color;
+                }
+            }
+        }
+    }
+}

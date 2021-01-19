@@ -1,0 +1,27 @@
+#men-product {
+    padding: 50px 0;
+
+    .tile {
+        width: calc(100% / 4);
+        color: $tile_font_color;
+        padding: 0 15px;
+
+        img {
+            width: 100%;
+        }
+
+        p:first-of-type {
+            color: #6D6F73;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: $tile_font_color;
+        }
+    }
+}

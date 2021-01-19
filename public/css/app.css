@@ -16106,7 +16106,73 @@ readers do not read off random characters that represent icons */
   box-sizing: border-box;
 }
 
+header #top-banner {
+  background-color: #041E3A;
+  padding: 3px 0;
+}
+header #top-banner a {
+  padding-left: 5px;
+}
+header #top-banner a:hover {
+  text-decoration: none;
+}
+header #top-banner span {
+  padding-bottom: 2px;
+}
+header #top-banner a, header #top-banner span {
+  font-size: 10px;
+  color: #fff;
+}
+header #nav-bar {
+  padding: 15px 0;
+}
+header #nav-bar .menu li {
+  padding-right: 30px;
+}
+header #nav-bar .menu li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #041E3A;
+}
+header #nav-bar .menu li a:hover {
+  color: #041E3A;
+}
+header #nav-bar .icons a span {
+  color: #041E3A;
+}
+
+#home-top_banner {
+  color: #fff;
+  background-color: #041e39;
+}
+
+#men-product {
+  padding: 50px 0;
+}
+#men-product .tile {
+  width: calc(100% / 4);
+  color: #041E3A;
+  padding: 0 15px;
+}
+#men-product .tile img {
+  width: 100%;
+}
+#men-product .tile p:first-of-type {
+  color: #6D6F73;
+  font-weight: 600;
+}
+#men-product .tile p {
+  margin: 0;
+}
+#men-product .tile a {
+  text-decoration: none;
+  color: #041E3A;
+}
+
 footer {
-  height: 200px;
-  background-color: lightgrey;
+  border-top: 1px solid lightgrey;
+}
+footer .credits {
+  font-size: 11px;
+  padding: 20px;
 }

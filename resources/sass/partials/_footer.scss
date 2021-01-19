@@ -1,4 +1,8 @@
 footer {
-    height: 200px;
-    background-color: lightgrey;
+    border-top: 1px solid lightgrey;
+    
+    .credits {
+        font-size: 11px;
+        padding: 20px;
+    }
 }
