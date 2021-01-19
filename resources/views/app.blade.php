@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>laravel-fashion-shop</title>
+        <title>Laravel Fashion Shop - @yield('title')</title>
+        <meta name="description" content="Benvenuto nel mondo Ralph Lauren. Aggiorna il guardaroba con i nostri saldi invernali: sconti fino al 50% su modelli selezionati per uomo, donna e bambini.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {{-- CSS --}}
         <link rel="stylesheet" href=" {{ asset('css/app.css') }} ">
@@ -15,9 +17,10 @@
         <script src=" {{ asset('js/app.js') }} " charset="utf-8"></script>
     </head>
     <body>
-        <div class="d-flex justify-content-center align-items-center">
-            <h1 class="text-center">Hello word!</h1>
-            <span class="fas fa-thumbs-up fa-2x ml-2"></span>
-        </div>
+        @include('layouts.header')
+
+        @yield('content')
+
+        @include('layouts.footer')
     </body>
 </html>

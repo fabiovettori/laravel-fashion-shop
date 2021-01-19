@@ -16099,3 +16099,14 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 200px;
+  background-color: lightgrey;
+}
